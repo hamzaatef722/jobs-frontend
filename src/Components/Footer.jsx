@@ -18,26 +18,38 @@ function Footer() {
               <span className="text-xl font-bold text-white">React Jobs</span>
             </Link>
             <p className="max-w-md text-sm text-white/80 leading-relaxed font-normal">
-              The premium marketplace to find top React developer jobs or hire expert frontend talent worldwide.
+              The premium marketplace to find top React developer jobs or hire
+              expert frontend talent worldwide.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="mb-4 text-base font-semibold text-white">Quick Links</h4>
+            <h4 className="mb-4 text-base font-semibold text-white">
+              Quick Links
+            </h4>
             <ul className="space-y-2.5 text-sm text-white/80">
               <li>
-                <Link to="/" className="transition hover:text-white hover:underline">
+                <Link
+                  to="/"
+                  className="transition hover:text-white hover:underline"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/jobs" className="transition hover:text-white hover:underline">
+                <Link
+                  to="/jobs"
+                  className="transition hover:text-white hover:underline"
+                >
                   Browse Jobs
                 </Link>
               </li>
               <li>
-                <Link to="/add-job" className="transition hover:text-white hover:underline">
+                <Link
+                  to="/add-job"
+                  className="transition hover:text-white hover:underline"
+                >
                   Post a Job
                 </Link>
               </li>
@@ -49,7 +61,7 @@ function Footer() {
             <h4 className="mb-4 text-base font-semibold text-white">Connect</h4>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/hamzaatef722"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -57,17 +69,9 @@ function Footer() {
               >
                 <FaGithub className="text-lg" />
               </a>
+
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Twitter"
-                className="flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 text-white transition hover:bg-white/20"
-              >
-                <FaTwitter className="text-lg" />
-              </a>
-              <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/hamza-gad-aba3133a5/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
