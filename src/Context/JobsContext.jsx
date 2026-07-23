@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useReducer } from "react";
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/jobs";
+const BASE_URL =  "https://jobs-backend-hamza.bonto.run/jobs";
 
 const JobsContext = createContext();
 
