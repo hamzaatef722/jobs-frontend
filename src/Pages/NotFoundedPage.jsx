@@ -1,4 +1,5 @@
 import { FaExclamationTriangle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function NotFoundedPage() {
   return (
@@ -9,12 +10,12 @@ function NotFoundedPage() {
           404 Not Found
         </h1>
         <p className="mb-8 text-xl text-slate-600">This page does not exist</p>
-        <a
-          href="/index.html"
+        <Link
+          to="/"
           className="inline-flex rounded-2xl bg-indigo-700 px-6 py-4 text-lg font-extrabold text-white transition hover:bg-indigo-900"
         >
           Go Back
-        </a>
+        </Link>
       </div>
     </section>
   );
